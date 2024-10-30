@@ -1,5 +1,5 @@
 # IDS-706 Data Engineering Assignment
-## Mini Project 8 : Package a Rust Script into a Command-Line Tool
+## Individual Project 2 : Package a Rust Script into a Command-Line Tool
 
 #### Status(CI/CD) badge 
 [![CI/CD](https://github.com/nogibjj/Mini_PJT_8_Transitioning_from_Python_to_Rust/actions/workflows/Rust.yaml/badge.svg)](https://github.com/nogibjj/Mini_PJT_8_Transitioning_from_Python_to_Rust/actions/workflows/Rust.yaml)
@@ -102,6 +102,17 @@ Mini_PJT_8_Transitioning_from_Python_to_Rust
    ![lint](Data/py_lint.png)
 - Rust
    ![photo](Data/rs_test.png)
+
+---------
+### Demo Video
+(TBD)
+
+---------
+### Use of Github/Gitlab Copilot
+
+- I installed GitHub Copilot on VS Code and used it to help convert my existing Python code into Rust. (The icon in the bottom right corner of the image shows that Copilot is installed.) When facing challenges with autocomplete, I also used ChatGPT for assistance.
+   ![copilot](Data/copilot.png)
+
 
 
 ----------
