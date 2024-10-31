@@ -91,7 +91,7 @@ Mini_PJT_8_Transitioning_from_Python_to_Rust
 
 * ***Binary file as an artifact in CI/CD***
    - Binary file is successfully released 
-      [Binary Articact Download](https://github.com/nogibjj/Mini_PJT_8_Transitioning_from_Python_to_Rust_ISL/actions/runs/11544607272/job/32130378632)
+      [Binary Articact Download](https://github.com/nogibjj/INDV_PJT_2_Rust-CLI-Binary-with-SQLite_ISL/actions/runs/11603673904/artifacts/2126022757)
       ![Image](Data/binary.png)
 
 ###  ***Performance Comparision*** 
@@ -117,17 +117,10 @@ Mini_PJT_8_Transitioning_from_Python_to_Rust
 
 ---------
 ### Demo Video
-(TBD)
+[Click_here](https://youtu.be/i1zRxoaZDb4)
 
 ---------
 ### Use of Github/Gitlab Copilot
 
 - GitHub Copilot on VS Code are utilized to help convert my existing Python code into Rust. (The icon in the bottom right corner of the image shows that Copilot is installed.) When facing challenges with autocomplete, I also used ChatGPT for assistance.
    ![copilot](Data/copilot.png)
-
-
-
-----------
-### Reference
-* https://github.com/noahgift/rust-new-project-template/blob/main/README.md
-

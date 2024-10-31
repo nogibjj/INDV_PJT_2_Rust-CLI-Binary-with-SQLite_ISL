@@ -11,7 +11,7 @@ format:
 	cargo fmt 
 
 run:
-	cargo run
+	cargo run -- all
 
 lint:
 	cargo clippy 
