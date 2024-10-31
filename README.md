@@ -9,20 +9,23 @@
 
 ### Project Purpose
 
-- The purpose of this project is to perform Extract, Transform, and Load (ETL) operations, comparing the performance of Rust and Python. I am using IBM's employee attrition dataset, downloaded as a CSV file from a URL, and I implemented data-cleaning functionality using SQL queries.
+- The purpose of this project is to perform Extract, Transform, and Load (ETL) operations and to compare the performance of Rust and Python. Using IBM's employee attrition dataset, downloaded as a CSV file from a URL, I implemented data-cleaning functionality with SQL queries via a command-line interface.
 
 -----
 
 ### Requirements
 
-* ***Take an existing Python script for data processing***
-* ***Rewrite it in Rust***
-* ***Highlight improvements in speed and resource usage***
+* ***Rust source code***
+* ***Use of Github Copilot***
+* ***SQLite Database***
+* ***Optimized Rust Binary***
+* ***README.md***
+* ***Github/Gitlab Actions***
+* ***Video Demo***
 
-### Deliverables
+### Optional 
+* ***Rust and Python performance comparison (Related to Mini project8)***
 
-* ***Rust and Python scripts***
-* ***Performance comparion report(PDF or markdown)***
 
 ---------
 ### Project Structure
