@@ -1,13 +1,13 @@
 # IDS-706 Data Engineering Assignment
-## Individual Project 2 : Package a Rust Script into a Command-Line Tool
+## Individual Project 2 : Rust CLI Binary with SQLite
 
 #### Status(CI/CD) badge 
-[![CI/CD](https://github.com/nogibjj/Mini_PJT_8_Transitioning_from_Python_to_Rust/actions/workflows/Rust.yaml/badge.svg)](https://github.com/nogibjj/Mini_PJT_8_Transitioning_from_Python_to_Rust/actions/workflows/Rust.yaml)
-[![Python CI/CD Pipeline](https://github.com/nogibjj/Mini_PJT_8_Transitioning_from_Python_to_Rust/actions/workflows/Python.yml/badge.svg)](https://github.com/nogibjj/Mini_PJT_8_Transitioning_from_Python_to_Rust/actions/workflows/Python.yml)
+[![CI/CD](https://github.com/nogibjj/INDV_PJT_2_Rust-CLI-Binary-with-SQLite_ISL/actions/workflows/Rust.yaml/badge.svg)](https://github.com/nogibjj/INDV_PJT_2_Rust-CLI-Binary-with-SQLite_ISL/actions/workflows/Rust.yaml)
+[![Python CI/CD Pipeline](https://github.com/nogibjj/INDV_PJT_2_Rust-CLI-Binary-with-SQLite_ISL/actions/workflows/Python.yml/badge.svg)](https://github.com/nogibjj/INDV_PJT_2_Rust-CLI-Binary-with-SQLite_ISL/actions/workflows/Python.yml)
 
 ------
 
-### Proejct Purpose
+### Project Purpose
 
 - The purpose of this project is to perform Extract, Transform, and Load (ETL) operations, comparing the performance of Rust and Python. I am using IBM's employee attrition dataset, downloaded as a CSV file from a URL, and I implemented data-cleaning functionality using SQL queries.
 
@@ -76,11 +76,20 @@ Mini_PJT_8_Transitioning_from_Python_to_Rust
    - Update(`queryUpdate`) : Works the same as the Python query above
    - Delete(`queryDelete`) : Works the same as the Python query above
 
-* ***Binary file as an artifact in CI/CD***
-- Binary file is successfully released 
-[Binary Articact Download](https://github.com/nogibjj/Mini_PJT_8_Transitioning_from_Python_to_Rust_ISL/actions/runs/11544607272/job/32130378632)
+- **Command Line Interface**
+   - 'extraction', 'load' and each stage of CRUD functions are implemented in a command line interface. Additionally, 'all' command is provided to measure performance.
+   - The `extract` and `load` stages have preset default values, but if needed, new file can be loaded by specifying a different path (URL)
 
-   ![Image](Data/binary.png)
+      ```
+      cargo run -- <extract/load/read/uddate/delete/all>
+      ```
+      ![CLI](Data/CLI.png)
+
+
+* ***Binary file as an artifact in CI/CD***
+   - Binary file is successfully released 
+      [Binary Articact Download](https://github.com/nogibjj/Mini_PJT_8_Transitioning_from_Python_to_Rust_ISL/actions/runs/11544607272/job/32130378632)
+      ![Image](Data/binary.png)
 
 ###  ***Performance Comparision*** 
 
@@ -110,7 +119,7 @@ Mini_PJT_8_Transitioning_from_Python_to_Rust
 ---------
 ### Use of Github/Gitlab Copilot
 
-- I installed GitHub Copilot on VS Code and used it to help convert my existing Python code into Rust. (The icon in the bottom right corner of the image shows that Copilot is installed.) When facing challenges with autocomplete, I also used ChatGPT for assistance.
+- GitHub Copilot on VS Code are utilized to help convert my existing Python code into Rust. (The icon in the bottom right corner of the image shows that Copilot is installed.) When facing challenges with autocomplete, I also used ChatGPT for assistance.
    ![copilot](Data/copilot.png)
 
 

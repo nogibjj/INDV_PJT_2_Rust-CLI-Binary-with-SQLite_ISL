@@ -7,7 +7,7 @@ use std::fs::File;
 use std::io::Write;
 use std::path::Path;
 
-// Extract 
+// Extract
 pub fn extract(url: &str, file_path: &str, _timeout: u64) -> Result<String, String> {
     match get(url) {
         Ok(response) => {
